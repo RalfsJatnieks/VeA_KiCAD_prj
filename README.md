@@ -1,2 +1,2 @@
 # VeA_KiCAD_prj
-kursa darbiem
+ši bus reprezotorija maniem kursa darbiem
