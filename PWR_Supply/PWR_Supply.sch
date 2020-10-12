@@ -1,0 +1,86 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 900  1700 1800 1250
+U 5F7F08E3
+F0 "Sheet5F7F08E2" 50
+F1 "220V.sch" 50
+F2 "Vcc" I R 2700 2700 50 
+F3 "GND" I R 2700 2550 50 
+$EndSheet
+$Sheet
+S 3450 1800 1650 1100
+U 5F84ACE7
+F0 "12V" 50
+F1 "12V.sch" 50
+F2 "Vcc" I L 3450 2700 50 
+F3 "GND" I L 3450 2550 50 
+F4 "12V" I R 5100 2500 50 
+F5 "GND" I R 5100 2700 50 
+$EndSheet
+$Sheet
+S 6000 1850 1750 1000
+U 5F851707
+F0 "9V" 50
+F1 "9V.sch" 50
+F2 "Vcc" I L 6000 2500 50 
+F3 "GND" I L 6000 2700 50 
+F4 "9V" I R 7750 2550 50 
+F5 "GND" I R 7750 2700 50 
+$EndSheet
+$Sheet
+S 6050 3450 1750 1100
+U 5F855A4E
+F0 "5V" 50
+F1 "5V.sch" 50
+F2 "Vcc" I R 7800 3600 50 
+F3 "GND" I R 7800 3800 50 
+F4 "5V" I L 6050 3650 50 
+F5 "GND" I L 6050 3850 50 
+$EndSheet
+$Sheet
+S 3450 3500 1800 1050
+U 5F85BD3E
+F0 "3,3V" 50
+F1 "3,3V.sch" 50
+F2 "Vcc" I R 5250 3650 50 
+F3 "GND" I R 5250 3850 50 
+$EndSheet
+Wire Wire Line
+	3450 2550 2700 2550
+Wire Wire Line
+	2700 2700 3450 2700
+Wire Wire Line
+	5100 2500 6000 2500
+Wire Wire Line
+	6000 2700 5100 2700
+Wire Wire Line
+	7750 2550 8000 2550
+Wire Wire Line
+	8000 2550 8000 3600
+Wire Wire Line
+	8000 3600 7800 3600
+Wire Wire Line
+	7750 2700 7900 2700
+Wire Wire Line
+	7900 2700 7900 3800
+Wire Wire Line
+	7900 3800 7800 3800
+Wire Wire Line
+	6050 3650 5250 3650
+Wire Wire Line
+	6050 3850 5250 3850
+$EndSCHEMATC

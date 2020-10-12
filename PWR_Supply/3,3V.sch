@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3450 3450 0    50   Input ~ 0
+Vcc
+$Comp
+L Device:CP1 C8
+U 1 1 5F85C057
+P 3900 3900
+F 0 "C8" H 4015 3946 50  0000 L CNN
+F 1 "0,01uF" H 4015 3855 50  0000 L CNN
+F 2 "" H 3900 3900 50  0001 C CNN
+F 3 "~" H 3900 3900 50  0001 C CNN
+	1    3900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C9
+U 1 1 5F85C4F3
+P 5200 3750
+F 0 "C9" H 5315 3796 50  0000 L CNN
+F 1 "0,01uF" H 5315 3705 50  0000 L CNN
+F 2 "" H 5200 3750 50  0001 C CNN
+F 3 "~" H 5200 3750 50  0001 C CNN
+	1    5200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM317L_TO92 U4
+U 1 1 5F85CD51
+P 4400 3450
+F 0 "U4" H 4400 3692 50  0000 C CNN
+F 1 "LM317L_TO92" H 4400 3601 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 3675 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F85D9E9
+P 4400 4000
+F 0 "R1" H 4459 4046 50  0000 L CNN
+F 1 "idk" H 4459 3955 50  0000 L CNN
+F 2 "" H 4400 4000 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F85E4DD
+P 4800 3800
+F 0 "R2" H 4859 3846 50  0000 L CNN
+F 1 "idk" H 4859 3755 50  0000 L CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "~" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3700 4800 3450
+Wire Wire Line
+	4800 3450 4700 3450
+Wire Wire Line
+	4800 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 3600
+Connection ~ 4800 3450
+Wire Wire Line
+	4800 3900 4400 3900
+Wire Wire Line
+	4400 3900 4400 3750
+Connection ~ 4400 3900
+Wire Wire Line
+	4400 4100 4400 4350
+Wire Wire Line
+	4400 4350 3900 4350
+Wire Wire Line
+	3900 4350 3900 4050
+Wire Wire Line
+	3900 3750 3900 3450
+Wire Wire Line
+	3900 3450 4100 3450
+Wire Wire Line
+	3900 3450 3450 3450
+Connection ~ 3900 3450
+Wire Wire Line
+	4400 4350 5200 4350
+Wire Wire Line
+	5200 4350 5200 3900
+Connection ~ 4400 4350
+$Comp
+L power:GND #PWR04
+U 1 1 5F85FC48
+P 4400 4500
+F 0 "#PWR04" H 4400 4250 50  0001 C CNN
+F 1 "GND" H 4405 4327 50  0000 C CNN
+F 2 "" H 4400 4500 50  0001 C CNN
+F 3 "" H 4400 4500 50  0001 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4350 4400 4500
+Text HLabel 5400 3450 2    50   Input ~ 0
+3.3V
+Text HLabel 5400 4350 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5400 4350 5200 4350
+Connection ~ 5200 4350
+Wire Wire Line
+	5400 3450 5200 3450
+Connection ~ 5200 3450
+$EndSCHEMATC
