@@ -1,0 +1,249 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R1
+U 1 1 5F86935B
+P 4850 3100
+F 0 "R1" H 4909 3146 50  0000 L CNN
+F 1 "22K" H 4909 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4850 3100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf?_ga=2.115708430.963756152.1602655474-662824111.1602655474&_gac=1.2245124.1602655503.EAIaIQobChMIoqSD57Sz7AIViLh3Ch33qQqcEAAYASAAEgLXevD_BwE" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F86A78C
+P 4850 4050
+F 0 "R2" H 4909 4096 50  0000 L CNN
+F 1 "6,8K" H 4909 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 4050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2860681.pdf?_ga=2.111531788.963756152.1602655474-662824111.1602655474&_gac=1.251342258.1602655503.EAIaIQobChMIoqSD57Sz7AIViLh3Ch33qQqcEAAYASAAEgLXevD_BwE" H 4850 4050 50  0001 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5F86BBE6
+P 5450 3100
+F 0 "R3" H 5509 3146 50  0000 L CNN
+F 1 "47K" H 5509 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 3100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5F86C7DA
+P 5450 4050
+F 0 "R4" H 5509 4096 50  0000 L CNN
+F 1 "1,8K" H 5509 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 4050 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5450 4050 50  0001 C CNN
+	1    5450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F86D4F4
+P 4350 3550
+F 0 "C1" V 4098 3550 50  0000 C CNN
+F 1 "22uF" V 4189 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4388 3400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2047978.pdf?_ga=2.184399406.963756152.1602655474-662824111.1602655474&_gac=1.7013126.1602655503.EAIaIQobChMIoqSD57Sz7AIViLh3Ch33qQqcEAAYASAAEgLXevD_BwE" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F86EE0A
+P 6200 3300
+F 0 "C3" V 5948 3300 50  0000 C CNN
+F 1 "22uF" V 6039 3300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6238 3150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2047978.pdf?_ga=2.184399406.963756152.1602655474-662824111.1602655474&_gac=1.7013126.1602655503.EAIaIQobChMIoqSD57Sz7AIViLh3Ch33qQqcEAAYASAAEgLXevD_BwE" H 6200 3300 50  0001 C CNN
+	1    6200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q1
+U 1 1 5F86F7E4
+P 5350 3550
+F 0 "Q1" H 5541 3596 50  0000 L CNN
+F 1 "BC548" H 5541 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 5550 3650 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/1044898/HOTTECH/BC548.html" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F8702F3
+P 5900 4050
+F 0 "C2" H 6015 4096 50  0000 L CNN
+F 1 "47uF" H 6015 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2792994.pdf?_ga=2.112382732.963756152.1602655474-662824111.1602655474&_gac=1.242542134.1602655503.EAIaIQobChMIoqSD57Sz7AIViLh3Ch33qQqcEAAYASAAEgLXevD_BwE" H 5900 4050 50  0001 C CNN
+	1    5900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3750 5450 3950
+Wire Wire Line
+	5450 3750 5900 3750
+Wire Wire Line
+	5900 3750 5900 3900
+Connection ~ 5450 3750
+$Comp
+L power:GND #PWR0102
+U 1 1 5F8744A3
+P 5900 4500
+F 0 "#PWR0102" H 5900 4250 50  0001 C CNN
+F 1 "GND" H 5905 4327 50  0000 C CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4200 5900 4400
+Wire Wire Line
+	4850 3950 4850 3550
+Wire Wire Line
+	4850 3550 5150 3550
+Wire Wire Line
+	4850 3550 4850 3200
+Connection ~ 4850 3550
+Wire Wire Line
+	5450 3350 5450 3300
+Wire Wire Line
+	4850 3000 4850 2800
+Wire Wire Line
+	4850 2800 5450 2800
+Wire Wire Line
+	5450 2800 5450 3000
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5F8763A2
+P 3300 3650
+F 0 "J1" H 3218 3325 50  0000 C CNN
+F 1 "Signals ieeja" H 3218 3416 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3300 3650 50  0001 C CNN
+F 3 "~" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 3550 4200 3550
+Wire Wire Line
+	4850 3550 4500 3550
+Wire Wire Line
+	3500 3650 3550 3650
+Wire Wire Line
+	3550 3650 3550 4400
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F87AADE
+P 7250 3200
+F 0 "J2" H 7330 3192 50  0000 L CNN
+F 1 "Signals izeja" H 7330 3101 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7250 3200 50  0001 C CNN
+F 3 "~" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3300 6350 3300
+Wire Wire Line
+	6050 3300 5450 3300
+Connection ~ 5450 3300
+Wire Wire Line
+	5450 3300 5450 3200
+$Comp
+L power:GND #PWR0105
+U 1 1 5F87E120
+P 6950 2950
+F 0 "#PWR0105" H 6950 2700 50  0001 C CNN
+F 1 "GND" H 6955 2777 50  0000 C CNN
+F 2 "" H 6950 2950 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 3200 6950 3200
+Wire Wire Line
+	6950 3200 6950 2950
+Wire Wire Line
+	5900 2800 5450 2800
+Connection ~ 5450 2800
+Wire Wire Line
+	5450 4150 5450 4400
+Wire Wire Line
+	5450 4400 5900 4400
+Connection ~ 5900 4400
+Wire Wire Line
+	5900 4400 5900 4500
+Wire Wire Line
+	5450 4400 4850 4400
+Wire Wire Line
+	4850 4400 4850 4150
+Connection ~ 5450 4400
+Wire Wire Line
+	4850 4400 3550 4400
+Connection ~ 4850 4400
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5F882652
+P 6100 2700
+F 0 "J3" H 6180 2692 50  0000 L CNN
+F 1 "12V" H 6180 2601 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6100 2700 50  0001 C CNN
+F 3 "~" H 6100 2700 50  0001 C CNN
+	1    6100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F883430
+P 5700 2700
+F 0 "#PWR01" H 5700 2450 50  0001 C CNN
+F 1 "GND" V 5705 2572 50  0000 R CNN
+F 2 "" H 5700 2700 50  0001 C CNN
+F 3 "" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2700 5750 2700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8849D4
+P 5750 2550
+F 0 "#FLG0101" H 5750 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 2723 50  0000 C CNN
+F 2 "" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2550 5750 2700
+Connection ~ 5750 2700
+Wire Wire Line
+	5750 2700 5700 2700
+$EndSCHEMATC
