@@ -1,0 +1,77 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Holder:SMTU2032 9V1
+U 1 1 5F97E2A6
+P 4050 4100
+F 0 "9V1" H 3967 3985 50  0000 C CNN
+F 1 "SMTU2032" H 3967 4076 50  0000 C CNN
+F 2 "Battery_Holder:SMTU2032" H 4050 4100 50  0001 C CNN
+F 3 "" H 4050 4100 50  0001 C CNN
+	1    4050 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F97F2F9
+P 4900 4500
+F 0 "R1" V 4704 4500 50  0000 C CNN
+F 1 "220R" V 4795 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 4500 50  0001 C CNN
+F 3 "~" H 4900 4500 50  0001 C CNN
+	1    4900 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5F97FC6D
+P 5750 4150
+F 0 "D1" V 5697 4228 50  0000 L CNN
+F 1 "LED" V 5788 4228 50  0000 L CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 5750 4150 50  0001 C CNN
+F 3 "~" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F980ABC
+P 5750 3450
+F 0 "#PWR01" H 5750 3200 50  0001 C CNN
+F 1 "GND" H 5755 3277 50  0000 C CNN
+F 2 "" H 5750 3450 50  0001 C CNN
+F 3 "" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 4300 5750 4500
+Wire Wire Line
+	5750 4500 5000 4500
+Wire Wire Line
+	4800 4500 4300 4500
+Wire Wire Line
+	4300 4500 4300 4250
+Wire Wire Line
+	4300 4200 4300 3700
+Wire Wire Line
+	4300 3700 5750 3700
+Wire Wire Line
+	5750 3700 5750 4000
+Wire Wire Line
+	5750 3700 5750 3450
+Connection ~ 5750 3700
+$EndSCHEMATC
