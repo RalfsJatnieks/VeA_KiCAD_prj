@@ -1,0 +1,15 @@
+### Module positions - created on 2020.12.11. 13:10:40 ###
+### Printed by Pcbnew version pcbnew (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                           PosX       PosY       Rot  Side
+C1        22uF      C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   130.4150   -80.0100  180.0000  top
+C2        47uF      C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   128.2700   -84.8450   90.0000  top
+C3        22uF      C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   142.9750   -89.3750   90.0000  top
+R1        22K       R_0603_1608Metric                             143.2250   -81.4125   90.0000  top
+R2        6,8K      R_0402_1005Metric                             131.3000   -83.3900  270.0000  top
+R3        47K       R_0603_1608Metric                             141.3500   -85.7625  270.0000  top
+R4        1,8K      R_0603_1608Metric                             140.4250   -81.4625  270.0000  top
+R5        1K        R_0402_1005Metric                             131.3250   -86.2850   90.0000  top
+R6        1K        R_0402_1005Metric                             133.3650   -88.8000    0.0000  top
+## End

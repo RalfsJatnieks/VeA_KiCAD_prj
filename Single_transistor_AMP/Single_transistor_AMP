@@ -1,0 +1,24 @@
+Source,C:\Users\Ralfs\Desktop\VeA_KiCAD_prj\VeA_KiCAD_prj\Single_transistor_AMP\Single_transistor_AMP.sch
+Kicad Rev,Eeschema (5.1.5)-3
+Generated Date,2020.12.11. 13:15:28
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+R1,22K,Device,R_Small
+R2,6,8K,Device,R_Small
+R3,47K,Device,R_Small
+R4,1,8K,Device,R_Small
+C1,22uF,Device,C
+C3,22uF,Device,C
+C2,47uF,Device,C
+J1,Signals ieeja,Connector,Screw_Terminal_01x02
+J2,Signals izeja,Connector,Screw_Terminal_01x02
+R6,1K,Device,R_Small
+R5,1K,Device,R_Small
+Q2,BC548,Transistor_BJT,BC548
+J3,12V,Connector,Screw_Terminal_01x02
+Q1,BC548,Device,Q_NPN_BCE
